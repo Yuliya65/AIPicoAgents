@@ -27,7 +27,7 @@ classifiers = [
 ]
 dependencies = [
     "pydantic>=2.0.0",
-    "openai==1.107.1",
+    "openai==1.109.1",
     "typing-extensions>=4.0.0",
     "requests>=2.25.0",
 ]
@@ -50,7 +50,7 @@ rag = [
 otel = [
     "opentelemetry-api~=1.38.0",
     "opentelemetry-sdk~=1.38.0",
-    "opentelemetry-exporter-otlp-proto-http~=1.38.0",
+    "opentelemetry-exporter-otlp-proto-http~=1.44.0",
 ]
 dev = [
     "pytest>=7.0.0",
